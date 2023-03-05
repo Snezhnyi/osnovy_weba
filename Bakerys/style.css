@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffe2b0;
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.kontak{
+    display: flex;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+}
+nav{
+    text-align: center;
+    margin-bottom: 20px;
+}
+ul{
+    list-style-type: none;
+    padding: 0%;
+}
+li{
+    display: inline;
+    margin-right: 100px;
+}
+li:last-child{
+    margin-right: 0px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Roboto;
+}
+a:hover{
+    color: crimson;
+    font-weight: bolder;
+}
+
+.onas{
+    height: 660px;
+    border: 10px black;
+    background-image: url(src/01-Картинка-фона.jpg  );
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.onas-text_block{
+    position: absolute;
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244,213,178,0.8) 0%, rgba(234,156,65,0.8) 100%);
+    top: 349px;
+    left: 730px;
+    padding-top: 15px ;
+    text-align: center;
+}
+.onas-text_border{
+    border: 1px solid black;
+    width: 390px;
+    height: 160px;
+    margin: 0 auto;
+    padding-top: 17px;
+    padding-left: 28px;
+    text-align: left;
+}
+.onas-text-title{
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 9px  ;
+}
+.onas-text-text{
+    font-size: 13px;
+    margin: 0;
+}
