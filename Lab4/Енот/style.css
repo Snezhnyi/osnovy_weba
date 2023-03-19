@@ -1,0 +1,81 @@
+﻿body {
+    width: 600px;
+    margin: 0 auto;
+    background: url(./img/blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-size: 17px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+li::before {
+    content: "✔";
+    padding-right: 0.5em;
+    color: coral;
+}
+
+.container {
+    border: 2px solid #a6caf0;
+    display: grid;
+    grid-template-areas:
+        "a a b b b b"
+        "a a c c p p"
+        "d d d d f f"
+        "d d d d f f";
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+
+}
+.photo {
+    width: 135px;
+    height: 135px;
+    margin: 15px 0 0 15px;
+    grid-area: a;
+    border: 2px solid rgb(0, 0, 105);
+}
+
+.name {
+    width: 320px;
+    grid-area: b;
+
+    color: white;
+}
+
+.contact1 {
+    width: 250px;
+    grid-area: c;
+    color: white;
+}
+.contact2 {
+    width: 160px;
+    grid-area: p;
+    color: white;
+}
+
+.base {
+    margin: 25px 0px 25px 0;
+    width: 420px;
+    grid-area: d;
+    color: white;
+}
+
+.qr {
+    margin: 100px 0 20px 35px;
+    grid-area: f;
+}
